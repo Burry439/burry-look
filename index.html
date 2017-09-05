@@ -9,14 +9,25 @@
     <title>Burry Look</title>
 </head>
 <body>
-    <div class="book"></div>
-    <div class="main">  
-    <h1> Burry Look <i class="fa fa-eye" aria-hidden="true" font-size></i></h1>   
-     <hr class="line">  
+       
+    <div class="main"> 
+            <h1> Burry Look <i class="fa fa-eye" aria-hidden="true" font-size></i></h1>
+            <hr class="line">
+        <div class="book">
+        <script id="book-template" type="text/x-handlebars-template">                    
+            <h1> {{bookTitle}} </h1> 
+            <p>{{bookDes}}</p>
+            <h3>{{bookAuthor}}</h3>
+            <img src='{{bookImg}}'></img>
+         </script>
+    </div> 
+       
+       
      <h2>Search by ISBN</h2>
      <div class="input-div">
      <input class="input" type="text" placeholder="ISBN Number"><br>
-     <button type="button" class="button btn btn-primary">Search</button>   
+     <button type="button" class="button btn btn-primary">Search</button>
+     <div class="error"></div>   
      </div>
  </div>
     
