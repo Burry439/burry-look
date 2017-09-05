@@ -1,0 +1,50 @@
+.main{
+    text-align: left;
+    margin-left: 30%;
+}
+
+.idk{
+   text-align: center;
+   margin-right: 40%;
+   margin-bottom: 5%;
+}
+
+.div{
+    margin-right : 37%;
+   margin-bottom: 2%; 
+   font-weight : bold;
+   font-size : 25px;
+}
+
+.fa-eye{
+    font-size: 50px;
+    padding-left: 1%;
+    
+}
+
+h1{
+    display : inline;
+    font-weight : bold;
+    
+}
+
+.form{
+    text-align: center;
+    padding-bottom: 1%;
+    padding-right: 10%; 
+}
+
+.input, .line{
+     width :400px;
+}
+
+.line{
+    margin: 20px 0px;
+}
+
+.button {
+   color : blue;
+   display: block ;
+   margin-top: 10px;
+}
+
